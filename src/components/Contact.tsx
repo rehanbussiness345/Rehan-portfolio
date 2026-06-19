@@ -74,7 +74,7 @@ export const Contact: React.FC = () => {
       <div className="mx-auto max-w-[1320px] px-5 md:px-10 lg:px-20">
         <div className="grid gap-12 md:grid-cols-12">
           <div className="md:col-span-5">
-            <div className="text-xs uppercase tracking-[0.3em] text-sand-muted">06 — Contact</div>
+            <div className="text-xs uppercase tracking-[0.3em] text-sand-muted">05 — Contact</div>
             <h2 className="mt-6 font-display text-4xl leading-[1.1] text-sand-light md:text-5xl">
               Let's Build Something Amazing Together.
             </h2>
