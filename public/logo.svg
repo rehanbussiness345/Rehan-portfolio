@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1614"/>
+      <stop offset="100%" stop-color="#2a2420"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <g fill="#c9b9a3" font-family="Georgia, 'Times New Roman', serif">
+    <path d="M150 110 L150 310 M150 110 L260 110 Q295 110 295 145 Q295 180 260 180 L200 180 L250 290 L205 290 L165 200 L150 200 Z" fill="#c9b9a3"/>
+    <text x="132" y="295" font-size="14" letter-spacing="6" fill="#c9b9a3" transform="rotate(-90 132 295)">REHAN TRIXA</text>
+  </g>
+</svg>

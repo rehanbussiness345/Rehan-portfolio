@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0b0a09;
+  --color-ink-900: #12100e;
+  --color-ink-800: #1a1714;
+  --color-ink-700: #23201c;
+  --color-ink-600: #2e2a24;
+  --color-ink-500: #3d3730;
+  --color-sand: #c9b9a3;
+  --color-sand-light: #e6d9c3;
+  --color-sand-muted: #a89880;
+  --color-line: rgba(201, 185, 163, 0.12);
+  --color-line-strong: rgba(201, 185, 163, 0.25);
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-ink);
+  color: var(--color-sand-light);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+.grain {
+  background-image:
+    radial-gradient(circle at 20% 10%, rgba(201, 185, 163, 0.06), transparent 40%),
+    radial-gradient(circle at 80% 90%, rgba(201, 185, 163, 0.05), transparent 40%);
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(var(--color-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-line) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.8s ease-out both;
+}
+
+@keyframes shine {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.btn-shine {
+  background: linear-gradient(90deg, transparent, rgba(201, 185, 163, 0.25), transparent);
+  background-size: 200% 100%;
+  animation: shine 3s linear infinite;
+}
+
+::selection {
+  background: var(--color-sand);
+  color: var(--color-ink);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--color-ink-900); }
+::-webkit-scrollbar-thumb { background: var(--color-ink-600); border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-sand-muted); }
