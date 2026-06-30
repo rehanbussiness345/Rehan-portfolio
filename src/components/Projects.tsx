@@ -83,6 +83,8 @@ const projects: Record<string, Project[]> = {
       results: ["Scalable LMS architecture", "Stripe payments", "AI course recommendations"],
       image:
         "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1600&auto=format&fit=crop",
+       link: "https://lawctopus-jade.vercel.app/",
+      demo: "https://lawctopus-jade.vercel.app/",
     },
   ],
   mobile: [
