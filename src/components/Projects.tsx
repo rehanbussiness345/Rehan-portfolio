@@ -27,7 +27,7 @@ const projects: Record<string, Project[]> = {
       demo: "https://apex-hospital-delta.vercel.app/",
     },
     {
-      name: "Mohtesham Fitness Club",
+      name: "Fitness Club",
       industry: "Fitness & Wellness",
       description:
         "High-converting fitness club website with membership plans, class schedules, trainer profiles and lead-capture funnels.",
