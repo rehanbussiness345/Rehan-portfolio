@@ -47,8 +47,8 @@ const projects: Record<string, Project[]> = {
       results: ["Rich visual portfolio", "3x faster inquiry response", "SEO-optimized galleries"],
       image:
         "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=1600&auto=format&fit=crop",
-      link: "https://interior-path-modular-kitchen-25bnd0o6d-rehan22.vercel.app/about",
-      demo: "https://interior-path-modular-kitchen-25bnd0o6d-rehan22.vercel.app/about",
+      link: "https://interior-path-modular-kitchen-rehan22.vercel.app/about",
+      demo: "https://interior-path-modular-kitchen-rehan22.vercel.app/about",
     },
     {
       name: "FMS Dental",
