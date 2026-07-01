@@ -31,7 +31,7 @@ export const Footer: React.FC = () => {
                 <Icon.Mail className="h-4 w-4" />
               </a>
               <a
-                href="tel:+923000000000"
+                href="tel:+#"
                 aria-label="Phone"
                 className="flex h-10 w-10 items-center justify-center rounded-full border border-line text-sand-muted transition-all hover:border-sand hover:text-sand"
               >
