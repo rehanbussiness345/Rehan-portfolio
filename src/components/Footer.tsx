@@ -76,14 +76,7 @@ export const Footer: React.FC = () => {
                   rehanbussiness345@gmail.com
                 </a>
               </li>
-              <li>
-                <a href="tel:+923000000000" className="transition-colors hover:text-sand">+92 300 000 0000</a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/rehantrixa/" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-sand">
-                  @rehantrixa
-                </a>
-              </li>
+              
               <li className="text-sand-muted">Remote · Worldwide</li>
             </ul>
           </div>
